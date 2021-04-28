@@ -1,0 +1,34 @@
+---
+title: "Workbook"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+## Problem 1
+
+Calculate the appropriate metric of interest in `R` (relative risk or odds ratio), then **write out a sentence** that describes your findings (i.e., _"the risk of..."_ or _"the odds of..."_).
+
+> Imagine a study assessing the effect of alcohol use (_"heavy drinking_") on liver disease. The researchers started with **100 liver disease patients**, then identified **150 people without the disease**. In the study, **75 liver disease patients** reported a history of heavy drinking, while only **50 people without the disease** reported a history of heavy drinking.
+
+## Problem 2
+
+Calculate the appropriate metric of interest in `R` (relative risk or odds ratio), then **write out a sentence** that describes your findings (i.e., _"the risk of..."_ or _"the odds of..."_).
+
+> Imagine a study assessing the effect of a vegetarian diet on heart disease. The researchers identified **100 healthy vegetarians** and **100 healthy meat eaters**, and then followed them to see their health outcomes. In the study, **10 vegetarians** experienced a heart attack, while **20 meat eaters** experienced a heart attack.
+
+## Problem 3
+
+Calculate the appropriate metric of interest in `R` (relative risk or odds ratio), then **write out a sentence** that describes your findings (i.e., _"the risk of..."_ or _"the odds of..."_).
+
+> Imagine a study assessing the effect of a bike commuting on experiencing a road traffic accident. The researchers identified **100 bike commuters** and **120 bus commuters**, and then followed them to see their health outcomes. In the study, **30 bike commuters** experienced a road traffic accident, while **10 bus riders** experienced a road traffic accident.
+
+
+## Problem 4
+
+Calculate the appropriate metric of interest in `R` (relative risk or odds ratio), then **write out a sentence** that describes your findings (i.e., _"the risk of..."_ or _"the odds of..."_).
+
+> Imagine a study assessing the effect of drinking seltzer water on developing cavities. The researchers started with **300 people with cavities**, then identified **250 people without cavities**. In the study, **80 people with cavities** reported being seltzer water, while **70 people without cavities** reported being seltzer drinkers.
