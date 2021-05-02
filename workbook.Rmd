@@ -1,4 +1,5 @@
 ---
+name: "Yuhaniz Aly"
 title: "Workbook"
 output: html_document
 ---
@@ -14,11 +15,27 @@ Calculate the appropriate metric of interest in `R` (relative risk or odds ratio
 
 > Imagine a study assessing the effect of alcohol use (_"heavy drinking_") on liver disease. The researchers started with **100 liver disease patients**, then identified **150 people without the disease**. In the study, **75 liver disease patients** reported a history of heavy drinking, while only **50 people without the disease** reported a history of heavy drinking.
 
+```{r}
+odds_exposed <- 75/25
+odds_unexposed <- 50/100
+odds_ratio_liver_disease <- odds_exposed/odds_unexposed  
+```
+
+The odds of developing liver disease for heavy drinkers was `r odds_ratio_liver_disease` times higher than those who were not heavy drinkers.
+
 ## Problem 2
 
 Calculate the appropriate metric of interest in `R` (relative risk or odds ratio), then **write out a sentence** that describes your findings (i.e., _"the risk of..."_ or _"the odds of..."_).
 
 > Imagine a study assessing the effect of a vegetarian diet on heart disease. The researchers identified **100 healthy vegetarians** and **100 healthy meat eaters**, and then followed them to see their health outcomes. In the study, **10 vegetarians** experienced a heart attack, while **20 meat eaters** experienced a heart attack.
+
+```{r}
+risk_exposed <- 10/100
+risk_unexposed <- 20/100
+risk_ratio_veg <- risk_exposed/risk_unexposed
+```
+Those that ate a vegetarian diet were `r risk_ratio_veg` times less likely to experience a heart attack than those who ate meat. 
+
 
 ## Problem 3
 
@@ -26,9 +43,24 @@ Calculate the appropriate metric of interest in `R` (relative risk or odds ratio
 
 > Imagine a study assessing the effect of a bike commuting on experiencing a road traffic accident. The researchers identified **100 bike commuters** and **120 bus commuters**, and then followed them to see their health outcomes. In the study, **30 bike commuters** experienced a road traffic accident, while **10 bus riders** experienced a road traffic accident.
 
+```{r}
+risk_exposed_bike <- 30/120
+risk_unexposed_bike <- 10/100
+risk_ratio_bike <- risk_exposed_bike/risk_unexposed_bike
+```
+Those who commute by bike experience road traffic accidents `r risk_ratio_bike` times more than bus commuters. 
+
 
 ## Problem 4
 
 Calculate the appropriate metric of interest in `R` (relative risk or odds ratio), then **write out a sentence** that describes your findings (i.e., _"the risk of..."_ or _"the odds of..."_).
 
 > Imagine a study assessing the effect of drinking seltzer water on developing cavities. The researchers started with **300 people with cavities**, then identified **250 people without cavities**. In the study, **80 people with cavities** reported being seltzer water, while **70 people without cavities** reported being seltzer drinkers.
+
+```{r}
+odds_exposed_seltzer <- 80/220
+odds_unexposed_seltzer <- 70/180
+odds_ratio_seltzer <- odds_exposed_seltzer/odds_unexposed_seltzer
+```
+The odds of developing cavities for seltzer drinkers was `r odds_ratio_seltzer` times greater than those who were not seltzer drinkers.
+
