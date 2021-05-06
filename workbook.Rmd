@@ -62,5 +62,5 @@ odds_exposed_seltzer <- 80/220
 odds_unexposed_seltzer <- 70/180
 odds_ratio_seltzer <- odds_exposed_seltzer/odds_unexposed_seltzer
 ```
-The odds of developing cavities for seltzer drinkers was `r odds_ratio_seltzer` times greater than those who were not seltzer drinkers.
+The odds of developing cavities for seltzer drinkers was `r odds_ratio_seltzer` times lower than those who were not seltzer drinkers.
 
