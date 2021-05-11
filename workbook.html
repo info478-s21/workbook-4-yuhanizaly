@@ -380,10 +380,10 @@ risk_ratio_veg &lt;- risk_exposed/risk_unexposed</code></pre>
 <blockquote>
 <p>Imagine a study assessing the effect of a bike commuting on experiencing a road traffic accident. The researchers identified <strong>100 bike commuters</strong> and <strong>120 bus commuters</strong>, and then followed them to see their health outcomes. In the study, <strong>30 bike commuters</strong> experienced a road traffic accident, while <strong>10 bus riders</strong> experienced a road traffic accident.</p>
 </blockquote>
-<pre class="r"><code>risk_exposed_bike &lt;- 30/120
-risk_unexposed_bike &lt;- 10/100
+<pre class="r"><code>risk_exposed_bike &lt;- 30/100
+risk_unexposed_bike &lt;- 10/120
 risk_ratio_bike &lt;- risk_exposed_bike/risk_unexposed_bike</code></pre>
-<p>Those who commute by bike experience road traffic accidents 2.5 times more than bus commuters.</p>
+<p>Those who commute by bike experience road traffic accidents 3.6 times more than bus commuters.</p>
 </div>
 <div id="problem-4" class="section level2">
 <h2>Problem 4</h2>
@@ -394,7 +394,7 @@ risk_ratio_bike &lt;- risk_exposed_bike/risk_unexposed_bike</code></pre>
 <pre class="r"><code>odds_exposed_seltzer &lt;- 80/220
 odds_unexposed_seltzer &lt;- 70/180
 odds_ratio_seltzer &lt;- odds_exposed_seltzer/odds_unexposed_seltzer</code></pre>
-<p>The odds of developing cavities for seltzer drinkers were 0.9350649 times greater than those who were not seltzer drinkers.</p>
+<p>The odds of developing cavities for seltzer drinkers was 0.9350649 times lower than those who were not seltzer drinkers.</p>
 </div>
 
 

@@ -44,8 +44,8 @@ Calculate the appropriate metric of interest in `R` (relative risk or odds ratio
 > Imagine a study assessing the effect of a bike commuting on experiencing a road traffic accident. The researchers identified **100 bike commuters** and **120 bus commuters**, and then followed them to see their health outcomes. In the study, **30 bike commuters** experienced a road traffic accident, while **10 bus riders** experienced a road traffic accident.
 
 ```{r}
-risk_exposed_bike <- 30/120
-risk_unexposed_bike <- 10/100
+risk_exposed_bike <- 30/100
+risk_unexposed_bike <- 10/120
 risk_ratio_bike <- risk_exposed_bike/risk_unexposed_bike
 ```
 Those who commute by bike experience road traffic accidents `r risk_ratio_bike` times more than bus commuters. 
